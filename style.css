@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  max-width: 750px;
+  margin: 40px auto;
+}
+
+button {
+  font-size: 1rem;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  overflow: auto;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer counter (days)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Total customers: <span id="total">0</span></h1>
+  <h2>Today: <span id="today">0</span></h2>
+
+  <button id="add">Add customer</button>
+  <button id="avg-7">Avg last 7 days</button>
+  <span id="avg-value">–</span>
+
+  <h3>Recent days (date → count)</h3>
+  <pre id="list"></pre>
+
+  <h3>Graph: cumulative customers since start</h3>
+  <canvas id="chart" width="700" height="300"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
